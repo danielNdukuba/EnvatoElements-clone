@@ -1,0 +1,270 @@
+body{
+    margin: 0; 
+    background: #f5f5f5;
+    position: relative;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img{
+    margin-top: 32px;
+    margin-left: 15px;
+   width: 200px;
+   height: 15px;
+}
+.container{
+    margin: 0;
+    padding: 1px 10px;
+    display: flex;
+    height: 80px;
+    background: #fff;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.1);
+}
+.container ul{
+    display: flex;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin: -3px 10px;
+    list-style: none;
+}
+.container li{
+    display: flex;
+    margin-top: 14px;
+}
+
+.container ul li a{
+    color: rgb(94, 86, 86);
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+ 
+}
+.container ul li a:hover{
+    background: rgb(176, 169, 169);
+    border-radius: 5px;
+    height: 20px;
+}
+.profile{
+    display: block;
+    border-radius: 50px;
+    margin-top: -6px;
+    margin-left: 10px;
+    width: 30px;
+    height: 20px;
+}
+.button{
+    height: 40px;
+    width: 230px;
+    margin-top: 25px;
+    display: flex;
+    padding: 15px 33px 14px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    background-color: #e40046;
+    color: rgb(255, 255, 255);
+}
+.button:hover{
+    background-color: #82052a;
+}
+.con{
+margin-top: 20px;
+   margin-left: 50px;
+    width: 500px;
+    height: 70px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar{
+    background: rgb(201, 198, 198);
+    width: 560px;
+    height: 40px;
+    max-width: 800px;
+    display: flex;
+    padding: 1px;
+    border-radius: 4px;
+}
+#select{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    height: -8x;
+    width: 90px;
+    padding: 25px 20px;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 50px;
+    border-radius: 4px;
+}
+#select img{
+    width: 15px;
+}
+#select ul{
+    margin-left: 5PX;
+    position: absolute;
+    top: -700px;
+    list-style: none;
+    background: rgb(255, 255, 255);
+    color: #555;
+    width: 200px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+#select ul li{
+    font-size: 13px;
+    display: flex;
+    margin-top: 16px;
+    margin-left: 2px;
+    font-weight: bolder;
+    padding: 5px 3px;
+    cursor: pointer;
+    text-align: center;
+}
+#select ul li:hover{
+    text-decoration:underline;
+}
+.search-bar input{
+    padding: 10px 25px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+#select ul.open{
+    top: 60px;
+    transition: 0.5s;
+}
+#nav-list{
+    font-size: 10px;
+    display: inline;
+}
+ #nav-list2{
+display: flex;
+background-color: #ffffff;
+height:50px;
+padding: 1px 1px;
+}
+#nav-list2 ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#nav-list2 ul li{
+    padding: 14px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(64, 69, 69);
+}
+#nav-list2 ul li a{
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+    color: #555555;
+}
+.learn{
+    margin-left: 260px;
+}
+.options1{
+    display: inline;
+    margin-left: 260px; 
+}
+.body-title{
+
+    text-decoration: none;
+    list-style: none;
+    color: #2a2828;
+    font-size: 50px;
+    margin-left: 250px;
+}
+.body-title-text{
+    font-size: 20px;
+    margin-left: 160px;
+}
+.images{
+    display: grid;
+    margin: 3% 8%;
+}
+.image1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  height: auto;
+ 
+}
+.image2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+.cont{
+width: 250px;
+height: 170px;
+margin: 40px 10px;
+line-height: 2.0;
+}
+.cont img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.5);
+}
+#modal-btn{
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #e40046;
+    border-radius: 3px;
+    border: none;
+    height: 50px;
+    width: 200px;
+}
+#modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#modal form {
+    display: grid;
+    background: white;
+    margin: 10% 20%;
+    line-height: 2.7;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+#modal label {
+    color: dimgrey;
+    font-size: 18px;
+}
+
+#modal input {
+    padding: 7px 12px;
+    font-size: 18px;
+}
+
+.close {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.close button {
+    cursor: pointer;
+}
+
+#modal input {
+
+}
